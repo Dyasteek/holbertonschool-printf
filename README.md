@@ -30,13 +30,13 @@
 			_printf("The string \"Hello, world!\" is %s.\n", "Hello, world!");
 		return 0;
 		}
-		```
+		
 		This code will print the following output:
-		```
+		
 		Hello, world!
 		The number 123 is 123.
 		The string "Hello, world!" is Hello, world!
-</h4>	```
+</h4>
 
 
 <footer>Maded by Jorge Gomez & Andres del Rio</footer>
