@@ -15,7 +15,8 @@
 	C file (_printf.c)
 
 	The man of the program (man_3_printf)
-
+</p>
+<h4>	
 	The _printf function returns the number of characters that were printed.
 	Here is an example of how to use the _printf function:
 	```
@@ -35,7 +36,7 @@
 	Hello, world!
 	The number 123 is 123.
 	The string "Hello, world!" is Hello, world!
-	```
-</p>
+</h4>	```
+
 
 <footer>Maded by Jorge Gomez & Andres del Rio</footer>
