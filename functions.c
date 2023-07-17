@@ -76,7 +76,6 @@ int print_integer(va_list mf)
 	{
 		write(1, "-", 1);
 		num = -num;
-		m++;
 	}
 	do {
 		buff[m++] = '0' + num % 10;
