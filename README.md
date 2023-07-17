@@ -19,23 +19,23 @@
 <h4>	
 	The _printf function returns the number of characters that were printed.
 	Here is an example of how to use the _printf function:
-	```
-	#include <stdio.h>
-	#include "_printf.h"
-
-	int main()
-	{
-		_printf("Hello, world!\n");
-		_printf("The number 123 is %d.\n", 123);
-		_printf("The string \"Hello, world!\" is %s.\n", "Hello, world!");
-	return 0;
-	}
-	```
-	This code will print the following output:
-	```
-	Hello, world!
-	The number 123 is 123.
-	The string "Hello, world!" is Hello, world!
+	
+		#include <stdio.h>
+		#include "_printf.h"
+	
+		int main()
+		{
+			_printf("Hello, world!\n");
+			_printf("The number 123 is %d.\n", 123);
+			_printf("The string \"Hello, world!\" is %s.\n", "Hello, world!");
+		return 0;
+		}
+		```
+		This code will print the following output:
+		```
+		Hello, world!
+		The number 123 is 123.
+		The string "Hello, world!" is Hello, world!
 </h4>	```
 
 
