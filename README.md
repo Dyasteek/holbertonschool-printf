@@ -8,6 +8,7 @@
 
     This Readme (README.md)
     Header file (main.h)
+	Functions (functions.c)
     C file (_printf.c)
     The man of the program (man_3_printf)
 
