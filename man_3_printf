@@ -19,16 +19,6 @@ Its functionality is to print ARGUMENT(s) according to FORMAT.
 .RS
 	The  int  argument  is  converted to signed decimal notation and prints this.
 
-.RE 
-.B o, u, x, X
-.RS
-	The  unsigned  int argument is converted to unsigned octal (o), unsigned decimal (u), or unsigned hexadecimal (x and X) notation, "x" is to lowercase and "X" is to uppercase.
-
-.RE 
-.B b
-.RS
-	Prints a converted number to binary (base 2).
-
 .RE
 .B c
 .RS
@@ -38,21 +28,6 @@ Its functionality is to print ARGUMENT(s) according to FORMAT.
 .B s
 .RS
 	Prints a string assign it in parameter's position. If string does not exist prints "(null)" in the same position.
-
-.RE
-.B p
-.RS
-	The void * pointer argument is printed in hexadecimal (0x + %lx), prints an address.
-
-.RE
-.B r 
-.RS
-	Prints a reversed string.
-
-.RE
-.B R
-.RS
-	Converts a string to rot13 and prints this.
 
 .RE
 .B %
