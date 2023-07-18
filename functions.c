@@ -89,7 +89,7 @@ int print_integer(va_list mf)
 	}
 
 	if (digit < 10)
-		return (count_fun += _putchar(digit + '0'));
+		return (count += _putchar(digit + '0'));
 
 	digitaux = digit;
 
@@ -100,11 +100,9 @@ int print_integer(va_list mf)
 	}
 	while (decimal >= 1)
 	{
-		count_fun += _putchar(((digit / decimal) % 10) + '0');
+		count += _putchar(((digit / decimal) % 10) + '0');
 		decimal /= 10;
 	}
 
-	return (count_fun);
+	return (count);
 }
-}
-
