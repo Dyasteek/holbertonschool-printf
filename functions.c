@@ -70,7 +70,7 @@ int print_integer(va_list mf)
 {
 	int num = va_arg(mf, int);
 	int m = 0, cont = 0;
-	char buff[6];
+	char buff[35];
 
 	if (num < 0)
 	{
