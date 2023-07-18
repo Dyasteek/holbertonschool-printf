@@ -1,5 +1,6 @@
 #ifndef _PRINTF
 #define _PRINTF
+#define BUFSIZE 1024
 
 /**libraries*/
 #include <stdio.h>
