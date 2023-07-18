@@ -1,6 +1,5 @@
 #ifndef _PRINTF
 #define _PRINTF
-#define BUFSIZE 1024
 
 /**libraries*/
 #include <stdio.h>
@@ -21,9 +20,11 @@ typedef struct func
 {
 	char mod;
 	int (*f)(va_list mf);
-} func_c;
+} func_t;
 
 /**Prototypes*/
+
+int _putchar(char c);
 int _printf(const char *format, ...);
 int print_percent(va_list mf);
 int print_char(va_list mf);
@@ -31,3 +32,4 @@ int print_string(va_list mf);
 int print_integer(va_list mf);
 
 #endif
+
