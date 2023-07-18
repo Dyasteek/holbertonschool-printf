@@ -35,14 +35,17 @@ int _printf(const char *format, ...)
 				}
 				i++;
 			}
-		}
+			else
+			{
+				va_end(val);
+				return (-1);
+			}}
 		else
 		{
 			write(1, &format[i], 1);
 			cont++;
 			i++;
-		}
-	}
+		}}
 	va_end(val);
 	return (cont);
 }
