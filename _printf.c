@@ -29,12 +29,9 @@ int _printf(const char *format, ...)
 					if (func[m].mod == format[i])
 					{
 						cont += func[m].f(val);
-						break;
-					}
-					m++;
-				}
-				i++;
-			}
+						break; }
+					m++; }
+				i++; }
 			else
 			{
 				va_end(val);
