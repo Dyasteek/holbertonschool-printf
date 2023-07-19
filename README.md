@@ -37,7 +37,7 @@
 		The number 123 is 123.
 		The string "Hello, world!" is Hello, world!
 </h4>
-<img src="https://github.com/Dyasteek/holbertonschool-printf/edit/master/README.md" alt="Flowchart printf">
+<img src="https://github.com/Dyasteek/holbertonschool-printf/blob/master/flowchart_printf.svg" alt="Flowchart printf">
 
 <h5>
 	Examples of flags in the printf:
