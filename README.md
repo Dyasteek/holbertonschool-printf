@@ -18,7 +18,7 @@
 </p>
 <h4>	
 	The _printf function returns the number of characters that were printed.
-	Here is an example of how to use the _printf function:
+	Here is an example of how to use the _printf function with a flowchart below:
 	
 		#include <stdio.h>
 		#include "_printf.h"
@@ -37,6 +37,8 @@
 		The number 123 is 123.
 		The string "Hello, world!" is Hello, world!
 </h4>
+<img src="https://github.com/Dyasteek/holbertonschool-printf/edit/master/README.md" alt="Flowchart printf">
+
 <h5>
 	Examples of flags in the printf:
 </h5>
