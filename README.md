@@ -39,8 +39,8 @@
 </h4>
 <h5>
 	Examples of flags in the printf:
-</h6>
-<p>
+</h5>
+
 	c - Used to print a character. you need to provide a char value as an argument after %c, and printf will display that character in the output.
 
 	s - Used to print a string of characters. You should pass a pointer to a character array as abn argument after %s, and printf will print the contents  of that  string in the output.
@@ -48,6 +48,6 @@
 	% - If you want  to print  a percentage sign "%" in the output instead of interprety it as a format specifier, simply use "%%", For example, printf("The value is %%\n"); will print "The value is %" in the output.
 
 	d, i - Both are used to print signed integer numbers. You can provide an int value as a argument %d or %i, and  printf will display that number in the output.
-</p>
+
 
 <footer>Created by Jorge Gómez & Andres del Río from the cohort 21.</footer>
