@@ -49,5 +49,14 @@
 
 	d, i - Both are used to print signed integer numbers. You can provide an int value as a argument %d or %i, and  printf will display that number in the output.
 
-
-<footer>Created by Jorge Gómez & Andres del Río from the cohort 21.</footer>
+<footer>Maded by
+    <a
+    style="text-decoration: none;"
+    href="github.com/jorge871">
+    Jorge Gomez</a>
+    &
+    <a
+    style="text-decoration: none;"
+    href="github.com/dyasteek">
+    Andres del Rio</a>
+</footer>
